@@ -1,0 +1,243 @@
+:root {
+  --brand-color: rgb(191, 105, 56);
+  --off-white: rgb(243, 242, 242);
+}
+
+body {
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.btn-sort {
+  background-color: var(--brand-color) !important;
+  color: white !important;
+}
+
+.card-img {
+  max-height: 200px;
+  object-fit: scale-down;
+}
+
+.cart-card {
+  flex-direction: row !important;
+  text-align: right;
+  width: 500px !important;
+  height: 220px !important;
+  /*
+  min-height: 220px !important;
+  max-height: 220px !important;
+  min-width: 300px !important;
+  max-width: 500px !important; */
+}
+
+.cart-pill {
+  height: 15px;
+  font-size: 0.5rem !important;
+}
+
+.detailed-product-card {
+  width: 900px !important;
+  margin: auto;
+  text-align: center;
+}
+
+.detailed-product-img {
+  object-fit: contain;
+  height: 300px;
+}
+
+.favorites {
+  padding-bottom: 200px !important;
+}
+
+.fixed-row {
+  height: 22px;
+}
+
+.heart-icon {
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.heart-icon-detailed {
+  position: absolute;
+  cursor: pointer;
+  left: 20px;
+  top: 20px;
+}
+
+.homepage {
+  background-image: url("./images/background-home-new.jpg");
+  min-height: 700px;
+  text-align: center;
+  font-family: "abel";
+}
+
+.info-card {
+  width: 820px !important;
+}
+
+.light-style {
+  background-color: white;
+}
+
+.login-form {
+  max-width: 50vw;
+  margin: auto;
+  border: rgba(133, 130, 130, 0.2) solid 2px;
+  border-radius: 3%;
+  padding: 20px;
+}
+
+.login-module {
+  height: 45px;
+  font-size: 0.9rem;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.logo-alt {
+  width: 70px;
+  margin: auto;
+}
+
+.logo-home {
+  opacity: 60%;
+}
+
+.logout-text {
+  cursor: pointer;
+}
+
+.logout-text:hover {
+  color: rgb(196, 42, 42);
+}
+
+.navbar-font {
+  font-size: 1.3rem;
+}
+
+.navbar-brand-font {
+  font-size: 1.6rem !important;
+}
+
+.off-white-style {
+  background-color: var(--off-white);
+}
+
+.product-card {
+  width: 400px !important;
+  text-align: center;
+  min-height: 500px;
+}
+
+.results-text {
+  max-width: 50%;
+}
+
+.return-text {
+  color: rgb(104, 104, 104);
+}
+
+.return-text:hover {
+  color: black !important;
+}
+
+.row-box {
+  border-top: var(--brand-color) solid 3px;
+  border-bottom: var(--brand-color) solid 3px;
+}
+
+.small-width {
+  width: 400px;
+  font-size: 3.5rem;
+}
+
+.sort-button {
+  width: 120px !important;
+  height: 40px;
+}
+
+.spinner-div {
+  margin: auto;
+  padding-top: 100px;
+  height: 700px;
+  text-align: center;
+}
+
+.total-card {
+  width: 500px !important;
+}
+
+.trash-icon {
+  position: absolute;
+  top: 195px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  background-color: rgba(134, 163, 180, 0.7);
+  padding-right: 6px;
+  padding-left: 6px;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .small-width {
+    width: 200px;
+  }
+  .opaque-background {
+    width: 300px;
+  }
+}
+
+@media (max-width: 900px) {
+  .info-card {
+    max-width: 90vw;
+  }
+  .product-card {
+    max-width: 80vw !important;
+    margin: auto !important;
+  }
+}
+
+@media (max-width: 1180px) {
+  .info-card {
+    margin: auto;
+  }
+  .total-card {
+    margin: auto;
+  }
+}
+
+@media (max-width: 1400px) {
+  .logo {
+    margin: -15px;
+  }
+  .login-module {
+    margin-right: 5px;
+    position: absolute;
+    top: 65%;
+  }
+  .login-text {
+    margin-right: 5px;
+    position: absolute;
+    top: 68%;
+  }
+}
