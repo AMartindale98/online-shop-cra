@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { NavLink } from "react-router-dom";
 import NavDropdown from "./NavDropdown";
 import { useProducts } from "../contexts/ProductsContext";
-import { Badge, Button } from "react-bootstrap";
+import { Badge } from "react-bootstrap";
 import { useAuth } from "../contexts/FakeAuthContext";
 
 //we figured out how to do filters, now we'll need more. that might change the code but i'm confident you'll figure it out. currently we have a category filter, we probably also want a price filter. - THIS IS DONE.
